@@ -1,58 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
-
 ::-webkit-scrollbar {
     width: 10px;
-
 }
+
 
 /* Track */
+
 ::-webkit-scrollbar-track {
     background: white;
-
 }
+
 ::-webkit-scrollbar:hover {
     background: white;
-    width:10px;
+    width: 10px;
 }
+
+
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
-    background: #7D41E2;    
-    border-radius: 80px; 
-  }
-  
-  /* Handle on hover */
-  /* ::-webkit-scrollbar-thumb:hover {
+    background: #7D41E2;
+    border-radius: 80px;
+}
+
+
+/* Handle on hover */
+
+
+/* ::-webkit-scrollbar-thumb:hover {
     
    
   } */
-  
-  
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-
-body{
+body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     /* background-color: black; */
-
 }
-:root{
+
+:root {
     --txtColor1: #000000a8;
 }
-.darktheme{
-    --element-color:white;
-    --element1-color:#9DB2BF;
+
+.darktheme {
+    --element-color: white;
+    --element1-color: #9DB2BF;
     --element2-color: #DDE6ED;
     background-color: black;
     color: white;
     transition: all 1s;
-
 }
 
 #themeImg {
@@ -72,7 +75,6 @@ body{
 }
 
 .navbar {
-
     width: 100vw;
     height: 80px;
     left: 0px;
@@ -85,7 +87,9 @@ body{
     position: fixed;
 }
 
+
 /* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 .navs1 {
     /* border: 1px solid black; */
     width: 15vw;
@@ -121,11 +125,8 @@ body{
 }
 
 
-
-
-
-
 /* Sec-2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 .navs2 {
     /* border: 1px solid black; */
     /* width: 25vw; */
@@ -140,9 +141,9 @@ body{
     width: 2vw;
     height: 2vw;
     margin: 0 0.5vw;
-
 }
-.button_nav{
+
+.button_nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,16 +162,16 @@ body{
     border: none;
     cursor: pointer;
 }
+
+#themeImg {
     cursor: pointer;
     height: 2vw;
     width: 7vw;
     margin: 0 1vw;
     border-radius: 0.5vw;
     border: 1px solid whitesmoke;
-    background-color: #7D41E2;
+    background-color: rgb(170, 164, 164);
     font-size: 0.7em;
-
-
 }
 
 .navbtn2 {
@@ -200,6 +201,7 @@ body{
 .txtColor {
     color: white;
 }
-.txtColor1{
+
+.txtColor1 {
     color: var(--txtColor1);
 }

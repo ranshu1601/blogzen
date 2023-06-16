@@ -1,4 +1,4 @@
-/* .footer {
+.footer {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -59,7 +59,7 @@
     margin-top: 10px;
 }
 
-.contact h2 a{
+.contact h2 a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -70,4 +70,4 @@
     justify-content: space-between;
     width: 60%;
     margin-top: 10px;
-} */
+}
